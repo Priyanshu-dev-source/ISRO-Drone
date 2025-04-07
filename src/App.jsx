@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path="/telemetry" element={<Telemetry/>}></Route>
+          <Route path="/" element={<Telemetry/>}></Route>
         </Routes>
     </Router>
   )
